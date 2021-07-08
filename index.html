@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Doob</title>
+</head>
+<body>
+    <img src="./assets/hero-bg-shape.png" class="hero-shape" alt="hero background shape">
+    <nav id="navbar">
+        <a href="#" id="logo"><img src="./assets/Logo.png" alt="logo"></a>
+        <div class="container">
+            <div class="links">
+                <ul class="nav-links">
+                    <li><a href="#">Home.</a></li>
+                    <li><a href="#">About us.</a></li>
+                    <li><a href="#">Portfolio.</a></li>
+                    <li><a href="#">Blog.</a></li>
+                    <li><a href="#">Contact us.</a></li>
+                </ul>
+                <ul class="contact">
+                    <select id="language">
+                        <option value="english">En</option>
+                        <option value="spanish">Es</option>
+                        <option value="italian">It</option>
+                        <option value="french">Fr</option>
+                    </select>
+                    <button class="contact-btn"><a href="#">Contact us <img src="./assets/arrow-right.png" alt="arrow"></a></button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-container">
+                    <div class="hero-text">
+                        <h1>The Spirit of <br> Digital Agency.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati atque recusandae laborum animi corporis!.</p>
+                        <div class="call-to-action">
+                            <button class="primary-btn-large">More About us</button>
+                            <button class="secondary-btn">Get in Touch.</button>
+                        </div>
+                        <div class="reveal"></div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="/assets/hero-Illustration.png" alt="hero Illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="services">
+            <img src="/assets/services-bg-shape.png" class="services-bg-shape" alt="about background shape">
+            <div class="container">
+                <div class="services-container">
+                    <div class="services-text">
+                        <h2>Anything you <br> need,we've <br> got you covered</h2>
+                        <button class="primary-btn-small">Get in Touch</button>
+                    </div>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./assets/icon1.png" alt="icon 1">
+                            <h3>Web & Graphic Design</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum optio nostrum molestias recusandae, voluptas non corrupti placeat ipsam dolorem cumque?</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/icon2.png" alt="icon 2">
+                            <h3>Web & App Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est assumenda, neque dolorum accusantium itaque distinctio sed aliquid iure expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <img src="/assets/about-bg-shape.png" class="about-bg-shape" alt="about background shape">
+            <div class="container">
+                <div class="about-container">
+                    <div class="about-image">
+                        <img src="/assets/about-illustration.png" alt="about illustration">
+                    </div>
+                    <div class="about-text">
+                        <small>Our Company</small>
+                        <h2>Some Fine <br> Words About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis porro cupiditate saepe quidem magnam, commodi facere suscipit provident modi praesentium! Sint cumque nam tempore corporis ducimus repellat aliquam tempora fuga.</p>
+                        <div class="arrows">
+                            <a href="#"><img src="/assets/arrow-left.png" alt="arrow left"></a>
+                            <a href="#"><img src="/assets/arrow-right-blue.png" alt="arrow right"></a>
+                        </div>
+                        <div class="reveal-about"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <small>Doob</small>
+                <h2>Creativity Above</h2>
+                <ul class="footer-links">
+                    <li><a href="#">Home.</a></li>
+                    <li><a href="#">About us.</a></li>
+                    <li><a href="#">Portfolio.</a></li>
+                    <li><a href="#">Blog.</a></li>
+                    <li><a href="#">Contact us.</a></li>
+                </ul>
+                <span id="copyright">
+                    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    - Doob, All Rights Reserved
+                </span>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="scripts/animations.js"></script>
+</body>
+</html>
