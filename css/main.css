@@ -280,7 +280,6 @@ h1, h2, h3 {
 #services {
   min-height: 90vh;
   position: relative;
-  overflow-x: hidden !important;
 }
 
 #services .services-bg-shape {
@@ -372,7 +371,6 @@ h1, h2, h3 {
 #about {
   min-height: 65vh;
   position: relative;
-  overflow-x: hidden !important;
 }
 
 #about .about-bg-shape {
@@ -380,7 +378,6 @@ h1, h2, h3 {
   top: -40%;
   right: 0;
   width: 15%;
-  z-index: -1;
 }
 
 #about .about-container {

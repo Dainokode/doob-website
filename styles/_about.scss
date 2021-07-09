@@ -1,14 +1,13 @@
 #about {
     min-height: 65vh;
     position: relative;
-    overflow-x: hidden !important;
+    // overflow-x: hidden !important;
 
     .about-bg-shape {
         position: absolute;
         top: -40%;
         right: 0;
         width: 15%;
-        z-index: -1;
     }
 
     .about-container {
