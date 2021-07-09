@@ -1,6 +1,7 @@
 #about {
     min-height: 65vh;
     position: relative;
+    overflow-x: hidden !important;
 
     .about-bg-shape {
         position: absolute;

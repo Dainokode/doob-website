@@ -1,5 +1,6 @@
 #hero {
     min-height: 90vh;
+    overflow-x: hidden !important;
     
     .hero-container {
         display: flex;

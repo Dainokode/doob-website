@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: #fff;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 li {
@@ -31,6 +31,7 @@ h1, h2, h3 {
 
 #navbar {
   padding: 3rem;
+  overflow-x: hidden !important;
 }
 
 #navbar #logo {
@@ -146,7 +147,7 @@ h1, h2, h3 {
 @media (max-width: 768px) {
   #navbar #logo {
     top: 45px;
-    left: 100px;
+    left: 120px;
   }
   #navbar .open-menu {
     display: block;
@@ -208,6 +209,7 @@ h1, h2, h3 {
 
 #hero {
   min-height: 90vh;
+  overflow-x: hidden !important;
 }
 
 #hero .hero-container {
@@ -278,6 +280,7 @@ h1, h2, h3 {
 #services {
   min-height: 90vh;
   position: relative;
+  overflow-x: hidden !important;
 }
 
 #services .services-bg-shape {
@@ -369,6 +372,7 @@ h1, h2, h3 {
 #about {
   min-height: 65vh;
   position: relative;
+  overflow-x: hidden !important;
 }
 
 #about .about-bg-shape {
@@ -464,6 +468,7 @@ h1, h2, h3 {
   padding: 6rem;
   color: #fff;
   background-color: #314584;
+  overflow-x: hidden !important;
 }
 
 #footer .footer-container {

@@ -1,5 +1,6 @@
 #navbar {
     padding: 3rem;
+    overflow-x: hidden !important;
 
     #logo {
         position: absolute;
@@ -90,7 +91,7 @@
 
         #logo {
             top: 45px;
-            left: 100px;
+            left: 120px;
         }
 
         .open-menu {
