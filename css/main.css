@@ -285,9 +285,9 @@ h1, h2, h3 {
 
 #services .services-bg-shape {
   position: absolute;
-  top: 8%;
+  top: 0;
   left: 0;
-  width: 15%;
+  width: 12%;
   z-index: -1;
 }
 
@@ -377,9 +377,9 @@ h1, h2, h3 {
 
 #about .about-bg-shape {
   position: absolute;
-  top: -40%;
+  top: 0;
   right: 0;
-  width: 15%;
+  width: 12%;
 }
 
 #about .about-container {
