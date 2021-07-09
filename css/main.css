@@ -260,7 +260,7 @@ h1, h2, h3 {
     margin-top: 5%;
   }
   #hero .hero-container .hero-text {
-    margin-right: 20%;
+    margin-right: 15%;
   }
   #hero .hero-container .hero-text h1 {
     font-size: 4rem;
@@ -270,7 +270,7 @@ h1, h2, h3 {
     font-size: 1.1rem;
   }
   #hero .hero-container .hero-image {
-    margin-right: 60%;
+    margin-right: 55%;
   }
   #hero .hero-container .hero-image img {
     width: 300px;
@@ -350,7 +350,7 @@ h1, h2, h3 {
     margin-top: 20%;
   }
   #services .services-container .services-text {
-    margin-right: 60%;
+    margin-right: 55%;
   }
   #services .services-container .services-text h2 {
     font-size: 3.5rem;
@@ -360,7 +360,7 @@ h1, h2, h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-right: 60%;
+    margin-right: 55%;
     margin-top: 10%;
   }
   #services .services-container .cards-container .card {
@@ -447,13 +447,13 @@ h1, h2, h3 {
             flex-direction: column;
   }
   #about .about-container .about-image {
-    margin-right: 45%;
+    margin-right: 40%;
   }
   #about .about-container .about-image img {
-    width: 340px;
+    width: 320px;
   }
   #about .about-container .about-text {
-    margin: 10% 0 15% 5%;
+    margin: 10% 0 5% 5%;
   }
   #about .about-container .about-text h2 {
     font-size: 3.5rem;
