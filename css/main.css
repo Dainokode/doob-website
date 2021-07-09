@@ -13,6 +13,7 @@ html {
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 li {
@@ -279,6 +280,7 @@ h1, h2, h3 {
 #services {
   min-height: 90vh;
   position: relative;
+  overflow: hidden;
 }
 
 #services .services-bg-shape {
@@ -370,7 +372,7 @@ h1, h2, h3 {
 #about {
   min-height: 65vh;
   position: relative;
-  overflow-x: hidden !important;
+  overflow: hidden;
 }
 
 #about .about-bg-shape {
@@ -465,7 +467,7 @@ h1, h2, h3 {
   padding: 6rem;
   color: #fff;
   background-color: #314584;
-  overflow-x: hidden !important;
+  overflow: hidden;
 }
 
 #footer .footer-container {
