@@ -534,7 +534,7 @@ h1, h2, h3 {
 
 @media (max-width: 768px) {
   #footer .footer-container {
-    margin-left: -70%;
+    margin-left: -65%;
   }
   #footer .footer-container h2 {
     font-size: 3.5rem;
