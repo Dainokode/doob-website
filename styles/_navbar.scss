@@ -1,0 +1,152 @@
+#navbar {
+    padding: 3rem;
+
+    #logo {
+        position: absolute;
+        top: 40px;
+        left: 105px;
+    }
+
+    .open-menu {
+        font-size: 2rem;
+        cursor: pointer;
+        margin: 20px;
+        display: none;
+    }
+
+    .close-menu {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul.nav-links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 16px;
+        
+        li {
+            margin-right: 50px;
+            transition: 0.4s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    ul.contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        #language {
+            border: none;
+            margin-right: 30px;
+        }
+
+        .contact-btn {
+            background-color: #fff;
+            padding: 1.5rem;
+            box-shadow: 3px 3px 10px #ccc;
+            font-size: 16px;
+            display: flex;
+            border: none;
+            outline: none;
+            position: relative;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            a {
+                color: #ff3946;
+            }
+
+            img {
+                width: 24px;
+                align-self: center;
+            }
+
+            &:active {
+                top: 2px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    #navbar {
+
+        #logo {
+            top: 45px;
+            left: 100px;
+        }
+
+        .open-menu {
+            display: block;
+        }
+
+        .close-menu {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        ul.nav-links {
+            position: fixed;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: center;
+            align-content: center;
+            background-color: #314584;
+            transition: left 1s ease;
+            display: none;
+            padding: 5%;
+
+            li {
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                font-size: 2.5rem;
+            }
+           
+            a {
+                color: #fff;
+            }
+        }
+
+        ul.contact {
+            position: absolute;
+            top: 45px;
+            right: 30px;
+
+            #language {
+                margin-right: 10px;
+            }
+
+            .contact-btn {
+                padding: 0.8rem;
+                font-size: 1rem;
+
+                img {
+                    width: 10px;
+                }
+            }
+        }
+    }
+}

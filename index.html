@@ -13,6 +13,7 @@
 <body>
     <img src="./assets/hero-bg-shape.png" class="hero-shape" alt="hero background shape">
     <nav id="navbar">
+        <div class="open-menu"><i class="fas fa-bars"></i></div>
         <a href="#" id="logo"><img src="./assets/Logo.png" alt="logo"></a>
         <div class="container">
             <div class="links">
@@ -22,6 +23,7 @@
                     <li><a href="#">Portfolio.</a></li>
                     <li><a href="#">Blog.</a></li>
                     <li><a href="#">Contact us.</a></li>
+                    <div class="close-menu"><i class="fa fa-times"></i></div>
                 </ul>
                 <ul class="contact">
                     <select id="language">
@@ -130,7 +132,10 @@
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 
-    <!-- CUSTOM JAVASCRIPT -->
+    <!-- Animations -->
     <script src="scripts/animations.js"></script>
+
+    <!-- Menu -->
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
