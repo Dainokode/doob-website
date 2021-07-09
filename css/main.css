@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: #fff;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 li {
@@ -534,7 +534,7 @@ h1, h2, h3 {
 
 @media (max-width: 768px) {
   #footer .footer-container {
-    margin-left: -74%;
+    margin-left: -70%;
   }
   #footer .footer-container h2 {
     font-size: 3.5rem;
